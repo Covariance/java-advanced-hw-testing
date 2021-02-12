@@ -1,4 +1,4 @@
-package info.kgeorgiy.java.advanced.walk;
+package info.kgeorgiy.ja.фамилия.walk;
 
 import info.kgeorgiy.java.advanced.base.BaseTest;
 import org.junit.Assert;

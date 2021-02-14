@@ -1,14 +1,18 @@
 #!/bin/bash
 
+(( $# != 1 )) \
+      && echo "Usage: $0 <hw>" \
+      && exit
+
 rsync -av --exclude='*Test.java' --exclude='*Tester.java' \
       --exclude='*.iml' --exclude='*module-info.java' \
-      ./modules/info.kgeorgiy.ja.фамилия.walk/ \
+      ./modules/info.kgeorgiy.ja.фамилия."$1"/ \
       ../java-advanced/java-solutions
 
-cd ../java-advanced || exit
+pushd ../java-advanced || exit
 
 git add ./*
-git commit -m "Automated commit"
+git commit -m "Add $1 [Automated commit]"
 git push origin master
 
-cd ../java-advanced-2021 || exit
+popd || exit

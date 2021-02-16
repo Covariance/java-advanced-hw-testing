@@ -11,7 +11,7 @@ rsync -av --exclude='*Test.java' --exclude='*Tester.java' \
 
 pushd ../java-advanced || exit
 
-git add ./*
+git add ./java-solutions/info/kgeorgiy/ja/фамилия/"$1"/*
 git commit -m "Add $1 [Automated commit]"
 git push origin master
 

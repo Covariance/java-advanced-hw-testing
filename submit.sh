@@ -13,6 +13,6 @@ pushd ../java-advanced || exit
 
 git add ./java-solutions/info/kgeorgiy/ja/фамилия/"$1"/*
 git commit -m "Add $1 [Automated commit]"
-git push origin master
+git push -f origin master
 
 popd || exit

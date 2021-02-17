@@ -1,4 +1,4 @@
-package info.kgeorgiy.java.advanced.arrayset;
+package info.kgeorgiy.ja.фамилия.arrayset;
 
 import net.java.quickcheck.collection.Pair;
 import org.junit.Assert;

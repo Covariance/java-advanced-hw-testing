@@ -1,4 +1,4 @@
-package info.kgeorgiy.java.advanced.arrayset;
+package info.kgeorgiy.ja.фамилия.arrayset;
 
 import info.kgeorgiy.java.advanced.base.BaseTest;
 import net.java.quickcheck.Generator;

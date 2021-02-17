@@ -1,4 +1,4 @@
-package info.kgeorgiy.java.advanced.walk;
+package info.kgeorgiy.ja.фамилия.walk;
 
 import org.junit.FixMethodOrder;
 import org.junit.Test;

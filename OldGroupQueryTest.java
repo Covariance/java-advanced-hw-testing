@@ -1,5 +1,9 @@
 package info.kgeorgiy.ja.фамилия.student;
 
+import info.kgeorgiy.java.advanced.student.Group;
+import info.kgeorgiy.java.advanced.student.GroupName;
+import info.kgeorgiy.java.advanced.student.GroupQuery;
+import info.kgeorgiy.java.advanced.student.Student;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;

@@ -1,6 +1,9 @@
 package info.kgeorgiy.ja.фамилия.student;
 
 import info.kgeorgiy.java.advanced.base.BaseTest;
+import info.kgeorgiy.java.advanced.student.GroupName;
+import info.kgeorgiy.java.advanced.student.Student;
+import info.kgeorgiy.java.advanced.student.StudentQuery;
 import org.junit.Assert;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
